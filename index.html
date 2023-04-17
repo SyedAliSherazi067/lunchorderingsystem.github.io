@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Ordering System</title>
+    <link rel="Stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lunch Ordering System</h1>
+    </header>
+
+    <main>
+        <form id="order-form">
+            <h2>Place Your Order</h2>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="address" id="address" name="address" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="lunch-options">Lunch Options:</label>
+                <select id="lunch-options" name="lunch-options">
+          <option value="vegetarian">Vegetarian</option>
+          <option value="chicken">Chicken</option>
+          <option value="beef">Beef</option>
+        </select>
+            </div>
+            <div class="button-contanier">
+                <button type="submit" id="Button" style=" text-align: center; border-radius: 0px; align-items: center;">Order Lunch</button>
+
+                <button class="button"><a href="#" style="text-decoration: none; color: aliceblue;">Order Lunch as a Guest</a></button>
+
+            </div>
+
+        </form>
+
+        <div id="confirmation-message" class="hidden">
+            <h2>Thank You!</h2>
+            <p>Your order has been placed. You will receive a confirmation email shortly.</p>
+        </div>
+    </main>
+
+    <script src="file.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+    /* Reset Styles */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Base Styles */
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #090909;
+    }
+    
+    h1,
+    h2 {
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: rgb(214, 145, 145);
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="address"],
+    select {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Define the button style */
+    
+    button {
+        background-color: #4f29c2;
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    /* Define the style for the inline container */
+    
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    #confirmation-message {
+        text-align: center;
+    }
